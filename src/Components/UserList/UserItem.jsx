@@ -1,9 +1,11 @@
 import React from "react";
 
 const UserItem = (props) => {
+  const data = props.users.users;
+  console.log("UserItem - ",data);
   return (
     <ul>
-      {props.users.map((item) => {
+      {data && data.map((item) => {
         return (
           <li>
             <div className="user">
