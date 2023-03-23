@@ -24,3 +24,9 @@ const UserItem = (props) => {
 };
 
 export default UserItem;
+
+/* 
+Error: props.users.map is not a function - https://www.youtube.com/watch?v=jcLW2tVsZis
+
+Error: Cannot read properties of undefined (reading 'map') - https://www.youtube.com/watch?v=UZT1V-VJxZE
+*/
